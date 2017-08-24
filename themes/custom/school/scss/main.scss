@@ -37,5 +37,7 @@ $media-expressions: (
 
 @import 'layout/common';
 
+@import 'regions/page-widgets';
+@import 'regions/page-title';
 @import 'regions/header';
 @import 'regions/footer';

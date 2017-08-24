@@ -11,6 +11,7 @@ libraries:
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
   welcome_banner_text: 'Welcome Banner Text'
   topwidget_first: 'Top First Widget'
   topwidget_second: 'Top Second Widget'

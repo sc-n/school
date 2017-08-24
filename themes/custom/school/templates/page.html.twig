@@ -51,11 +51,19 @@
   {{ page.primary_menu }}
   {{ page.secondary_menu }}
 
-  {{ page.breadcrumb }}
+  {{ page.welcome_banner_text }}
+
+  <div id="page-widgets">
+    <div class="page-widget">{{ page.topwidget_first }}</div>
+    <div class="page-widget">{{ page.topwidget_second }}</div>
+    <div class="page-widget">{{ page.topwidget_third }}</div>
+  </div>
 
   {{ page.highlighted }}
 
-  {{ page.help }}
+  {{ page.page_title }}
+
+  {{ page.breadcrumb }}
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}

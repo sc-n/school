@@ -8,16 +8,12 @@
  * See the page.html.twig template for the list of variables.
  */
 function school_preprocess_page(&$variables) {
-//  $entity_definition_update_manager = \Drupal::entityDefinitionUpdateManager();
-//  $entity_types = \Drupal::entityTypeManager()->getDefinitions();
-//  foreach ($entity_types as $entity_type_id => $entity_type) {
-//    if ($entity_type->getGroup() == 'content' && $entity_type_id != 'node') {
-//      if ($entity_definition_update_manager->getEntityType($entity_type_id)) {
-//        $storage_definition = $entity_definition_update_manager->getFieldStorageDefinition('ds_switch', $entity_type_id);
-//        if ($storage_definition) {
-//          $entity_definition_update_manager->uninstallFieldStorageDefinition($storage_definition);
-//        }
-//      }
-//    }
-//  }
+  $stop_xdebug = "DELETE THIS LINE - THIS LINE NEEDS FOR X-DEBUG";
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function school_preprocess_html(&$variables) {
+  $stop_xdebug = "DELETE THIS LINE - THIS LINE NEEDS FOR X-DEBUG";
 }

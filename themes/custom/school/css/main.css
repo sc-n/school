@@ -2929,4 +2929,17 @@ a {
       outline: none; }
     .slick-dots li.slick-active button {
       background: #f7dbe0; }
+
+#page-widgets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  #page-widgets .region {
+    border: 1px solid green; }
+
+.region-page-title {
+  margin: auto;
+  min-width: 400px;
+  width: 60%;
+  text-align: center; }
 /*# sourceMappingURL=main.css.map */
