@@ -1,0 +1,22 @@
+uuid: 633b3b4e-3e18-4e41-b0f6-82c3162d01c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - school
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: school_messages
+theme: school
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

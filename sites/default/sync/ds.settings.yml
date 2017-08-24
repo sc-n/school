@@ -1,0 +1,4 @@
+field_template: true
+ft-default: default
+ft-show-colon: false
+use_field_names: true

@@ -1,0 +1,25 @@
+uuid: 76753563-32f0-45b8-84f4-4830a2041022
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - school
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: school_branding
+theme: school
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
